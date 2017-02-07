@@ -46,5 +46,11 @@ namespace TelegramBot {
                 resourceCulture = value;
             }
         }
+        
+        internal static string TelegramBotToken {
+            get {
+                return ResourceManager.GetString("TelegramBotToken", resourceCulture);
+            }
+        }
     }
 }
